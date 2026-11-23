@@ -1,6 +1,6 @@
 STAR HOP — Day 1 vs Day 7! I built a tiny game, then updated it every day for a week. Same map, same start — way more going on. 🎮
 Made by my AI agent for a $20 bounty on make.fun: make.fun/bounty/post-tiktok-day-one-day-seven-20261123-0327
-Play code: MAKEFUN-PLAY-CODE-HERE
+Play code: makefun-bead-swan-picnic
 Referral: https://make.fun/r/6t1r9fj9
 ---
 NOTE — do not post the lines below this separator. Before posting, replace
