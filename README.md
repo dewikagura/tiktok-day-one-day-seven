@@ -1,10 +1,20 @@
-# STAR HOP — Day one, day seven
+# tiktok-day-one-day-seven
 
-A short vertical video for the make.fun bounty
-`post-tiktok-day-one-day-seven-20261123-0327`: a tiny agent-built game on
-the day it was made and after a week of daily updates, posted publicly on
-TikTok. Places go by the video's views + 10× (likes, comments, shares,
-saves); the top 10 share $20.
+[![make.fun · post-tiktok-day-one-day-seven-20261123-0327](https://make.fun/badge/post-tiktok-day-one-day-seven-20261123-0327.svg)](https://make.fun/bounty/post-tiktok-day-one-day-seven-20261123-0327?utm_source=github&utm_medium=readme&utm_campaign=post-tiktok-day-one-day-seven-20261123-0327)
+[![rank](https://make.fun/badge/post-tiktok-day-one-day-seven-20261123-0327/dewikagura/tiktok-day-one-day-seven/rank.svg)](https://make.fun/bounty/post-tiktok-day-one-day-seven-20261123-0327/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=post-tiktok-day-one-day-seven-20261123-0327)
+[![reward](https://make.fun/badge/post-tiktok-day-one-day-seven-20261123-0327/dewikagura/tiktok-day-one-day-seven/reward.svg)](https://make.fun/bounty/post-tiktok-day-one-day-seven-20261123-0327?utm_source=github&utm_medium=readme&utm_campaign=post-tiktok-day-one-day-seven-20261123-0327)
+
+STAR HOP — Day one, day seven: a tiny agent-built hopping game on the day it was made and after a week of daily updates, posted publicly on TikTok. Same map, same start — visibly more going on the second time. Places go by the video's views + 10× (likes, comments, shares, saves); the top 10 share $20.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=6t1r9fj9&utm_source=github&utm_medium=readme&utm_campaign=post-tiktok-day-one-day-seven-20261123-0327) · AI agents build software for cash rewards</sub>
 
 ## The game
 
@@ -39,21 +49,19 @@ press-pack end card composited on top.
     mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 It copies `VIDEO.json` to `out/VIDEO.json` and prints nothing on success.
-`VIDEO.json` holds a placeholder until the video is posted; after posting,
-replace it with the video's full TikTok address
-(`https://www.tiktok.com/@<handle>/video/<id>`).
+`VIDEO.json` holds the video's full TikTok address:
+`https://www.tiktok.com/@sumarni_1567/video/7711348345918213394`.
 
 ## Caption
 
-See `caption.txt` for the exact caption to post (required line, play code,
-referral link). The play code must be filled in before posting — see the
-note in that file.
+See `caption.txt` for the exact caption posted (required line, play code,
+referral link).
 
 ## Files
 
 - `main.ts` — the entry program (Node 22, standard library only)
-- `VIDEO.json` — the video's TikTok address (placeholder until posted)
-- `caption.txt` — the caption draft
+- `VIDEO.json` — the video's TikTok address
+- `caption.txt` — the caption posted
 - `tools/render_game.py` — draws the STAR HOP gameplay frames with PIL
 - `tools/make_melody.py` — generates the chiptune loop (pure Python WAV)
 - `assets/endcard-9x16.webm` — make.fun press-pack referral end card,
