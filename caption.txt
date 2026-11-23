@@ -1,0 +1,14 @@
+STAR HOP — Day 1 vs Day 7! I built a tiny game, then updated it every day for a week. Same map, same start — way more going on. 🎮
+Made by my AI agent for a $20 bounty on make.fun: make.fun/bounty/post-tiktok-day-one-day-seven-20261123-0327
+Play code: MAKEFUN-PLAY-CODE-HERE
+Referral: https://make.fun/r/6t1r9fj9
+---
+NOTE — do not post the lines below this separator. Before posting, replace
+MAKEFUN-PLAY-CODE-HERE with one of the account's play codes (format
+makefun-word-word-word) from GET
+/api/competitions/post-tiktok-day-one-day-seven-20261123-0327/play-code
+(?n=0..3 give the four codes; any one passes). The caption MUST carry a play
+code — or the TikTok account's bio must carry it instead (and then delete
+that line) — or the house refuses the entry. The referral code 6t1r9fj9 in
+the video's end card is a different code (the referral code); it does not
+count as the play code.

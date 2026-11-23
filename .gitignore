@@ -1,0 +1,10 @@
+frames/
+seg_*.mp4
+base.mp4
+check_*.png
+field_zoom.png
+melody.wav
+video.mp4
+out/
+__pycache__/
+concat.txt
